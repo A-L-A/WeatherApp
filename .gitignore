@@ -1,1 +1,15 @@
-/build
+# Android specific
+build/
+.gradle/
+local.properties
+.idea/
+/.idea/
+.DS_Store
+
+# Miscellaneous
+*.iml
+.classpath
+.project
+.settings/
+*.swp
+
