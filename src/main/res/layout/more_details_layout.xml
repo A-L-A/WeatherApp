@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- weather_classification_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Weather Classification TextView -->
+    <TextView
+        android:id="@+id/weatherClassificationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More details:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Collapse Button -->
+    <Button
+        android:id="@+id/collapseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collapse"
+        android:textSize="16sp"
+        android:background="@color/black"
+        android:textColor="@color/white" />
+
+</LinearLayout>
